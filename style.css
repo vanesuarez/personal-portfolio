@@ -266,6 +266,10 @@ section {
   position: relative;
 }
 
+.icon-default {
+  cursor: default;
+}
+
 .about-containers {
   gap: 1rem;
   margin-bottom: 2rem;
@@ -334,18 +338,18 @@ section {
 
 .article-container {
   display: flex;
-  text-align: initial;
+  text-align: start;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.5rem;
+  gap: 2rem;
   justify-content: space-around;
 }
 
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
-  gap: 0.5rem;
+  justify-content: left;
+  gap: 1rem;
 }
 
 article .icon {
@@ -374,9 +378,10 @@ article .icon {
   }
   
   .project-img {
+    border: rgb(208, 208, 208) 2px solid;
     border-radius: 2rem;
-    width: 100%; /* Para que las imágenes ocupen todo el espacio del contenedor */
-    height: auto; /* Para mantener la proporción de la imagen */
+    width: 40vh; /* Para que las imágenes ocupen todo el espacio del contenedor */
+    height: 40vh;
   }
   
   .project-title {

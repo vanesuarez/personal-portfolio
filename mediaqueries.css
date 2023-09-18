@@ -88,6 +88,7 @@
     }
     .section__pic-container {
       width: auto;
+      
       height: 60vw;
       justify-content: center;
       margin-top: 1rem;
